@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                container('maven') {
+                container('gradle') {
                     sh 'cd gradle-site-plugin'
                     sh 'gradlew build'
                     
