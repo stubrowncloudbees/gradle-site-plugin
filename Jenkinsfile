@@ -9,7 +9,7 @@ pipeline {
             steps {
                 container('gradle') {
                     sh 'id'
-                    sh 'ls'
+                    sh 'ls && pwd'
                     sh './gradlew build'
                     
                     
