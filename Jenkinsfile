@@ -8,7 +8,7 @@ pipeline {
         stage('build') {
             steps {
                 container('gradle') {
-                    sh 'ls -lart'
+                    sh 'id'
                     
                     
                 }
