@@ -10,7 +10,7 @@ pipeline {
                 container('gradle') {
                     sh 'id'
                     sh 'ls'
-                    sh 'gradlew build'
+                    sh './gradlew build'
                     
                     
                 }
