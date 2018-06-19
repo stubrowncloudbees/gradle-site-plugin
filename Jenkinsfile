@@ -9,7 +9,8 @@ pipeline {
             steps {
                 container('gradle') {
                     sh 'id'
-                    sh 'cd gradle-site-plugin'
+                    sh 'ls'
+                    sh 'cd gradle-site-plugi*'
                     sh 'gradlew build'
                     
                     
