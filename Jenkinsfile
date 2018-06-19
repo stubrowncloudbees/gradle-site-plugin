@@ -10,7 +10,6 @@ pipeline {
                 container('gradle') {
                     sh 'id'
                     sh 'ls'
-                    sh 'cd gradle-site-plugi*'
                     sh 'gradlew build'
                     
                     
